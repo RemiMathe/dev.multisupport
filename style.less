@@ -1,0 +1,91 @@
+//VARIABLES
+@color-title:#17abe2;
+@font-title:'Poiret One', cursive;
+@taille-txtcourant:1.2em;
+
+//CSS
+html,body,main{
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    font-family: 'Arial', sans-serif;
+    background-color:#000000;
+}
+
+//TITRES
+h1{
+    color:#ffffff;
+    font-size:4.5em;
+    font-family: @font-title;
+    margin-top:0;
+    padding-top:1%;
+}
+
+h2{
+    color:@color-title;
+    font-size:2em;
+    font-family: @font-title;
+    text-align:center;
+}
+
+//TEXTES
+p{
+    font-size:@taille-txtcourant;
+    text-align:left;
+}
+
+blockquote{
+    font-size:@taille-txtcourant;
+    text-align:center;
+}
+.guillemet{
+    color:#17ABE2;
+    font-size:3em;
+    margin:1%;
+}
+
+footer p{
+    text-align:center;
+}
+
+#info{
+    margin-top:-1%;
+}
+
+//IMAGES
+#accueil img{
+    width:30%;
+}
+
+article img{
+    width:70%;
+    margin:0 auto;
+    display:block;
+}
+
+//SECTIONS
+#accueil{
+    height:100%;
+    width:100%;
+    background-image: url('images/accueil.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+article{
+    width:50%;
+    color:#000000;
+    margin:0 auto;
+    background-color:#ffffff;
+    margin-top:-10%;
+    padding:1% 2% 2% 2%;
+}
+
+footer{
+    width:100%;
+    margin:0 auto;
+    color:#ffffff;
+    font-size:0.8em;
+}
